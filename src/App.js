@@ -1,28 +1,44 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
-
+import Home from './Compontet/Home/Home';
+import Shop from './Compontet/Shop/Shop';
+import Journal from './Compontet/Journal/Journal';
+import ComingSoon from './Compontet/ComingSoon/ComingSoon';
+import { BrowserRouter, Route ,Switch} from "react-router-dom";
+import NavbarTop from './Compontet/NavbarTop/NavbarTop';
+import Erro from './Compontet/Erro/Erro'
+import LogIn from './Compontet/LogIn/LogIn'
 class App extends Component {
+
   render() {
+
+    
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+   
+      <BrowserRouter>
+
+      <div className="hpp">
+
+
+   
+        
+            <Switch>
+
+       <Route exact path="/" render={(props) => <NavbarTop />}  component={Home} />
+        <Route path="/Shop" component={Shop} />
+        <Route path="/singleshop" component={Journal} />
+        <Route path="/ComingSoon" component={ComingSoon} />
+        <Route path="/Erro" component={Erro} />
+        <Route path="/LogIn" component={LogIn} />
+        </Switch>
+
+        </div>
+    
+        </BrowserRouter>
+      
+     
+);
+}
 }
 
 export default App;
