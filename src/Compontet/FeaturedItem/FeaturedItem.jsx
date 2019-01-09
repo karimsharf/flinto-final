@@ -10,8 +10,8 @@ class FeaturedItem extends Component {
                <div className="product-grid">
         <div className="product-image">
           <a href="#">
-            <img className="pic-1" src={require('../../img/img-1.jpg')} />
-            <img className="pic-2"src={require('../../img/img-2.jpg')} />
+            <img className="pic-1" src={require('../../img/img-9.jpeg')} />
+            <img className="pic-2"src={require('../../img/img-10.jpeg')} />
           </a>
             <ul class="social">
                         <li><a className="SocialHold" href="" data-tip="Add to Wishlist">ADD TO CART</a></li>

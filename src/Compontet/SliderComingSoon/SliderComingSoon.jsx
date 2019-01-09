@@ -2,14 +2,64 @@ import React, { Component } from 'react';
 import {NavItem,} from 'react-bootstrap';
 import FooterLinks from '../FooterLinks/FooterLinks';
 import CountTo from 'react-count-to';
+import {Grid,} from 'react-bootstrap';
 
 class SliderComingSoon extends Component {
+
+      constructor(props){
+        super(props);
+      this.state = {
+            overlayOpen:"open",
+            menuTitle: <i class="fa fa-bars"></i>,
+            overlaySt:"overlay"
+        };
+       this.handleClick = this.handleClick.bind(this);
+    };
+  
+      handleClick() {
+        switch(this.state.overlayOpen)
+{
+    case "open":
+        this.setState({
+            overlayOpen:"close",
+            menuTitle: <i class="fa fa-close"></i>,
+            overlaySt:"overlay open"
+        });
+        break;
+    case "close":
+        this.setState({
+            overlayOpen:"open",
+            menuTitle: <i class="fa fa-bars"></i>,
+            overlaySt:"overlay"
+        });
+        break;
+  
+}
+        
+    }
   render() {
     return (
       <div className="SliderComingSoon">
 
+<Grid>
+       <div className="menu-cont" id="toggle" >
+            <span className='menu-txt' onClick={this.handleClick}>{this.state.menuTitle}</span>
+         <div className={this.state.overlaySt} id="overlay">
+            <nav className="overlay-menu">
+            <ul>
+            <li ><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+           </nav>
+        </div>
+      </div>
+
+
+
+
   <div className="SliderComeing">
-  <img src={require('../../img/ComeingSoon.jpg')}/>
   </div>
   <div className="SliderComingHolder">
   <h1>Coming Soon</h1>
@@ -36,7 +86,7 @@ class SliderComingSoon extends Component {
                      </div>
   </div>
  
- 
+  </Grid>
       </div>
     );
   }

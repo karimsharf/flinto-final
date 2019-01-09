@@ -58,8 +58,8 @@ class NavbarTop extends Component {
     <Nav pullRight>
     <ul class="social">
     {/* <a className="wishlist icon ion-android-favorite-outline alotheme-tooltip">ff</a> */}
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"> <sub className="Two">2</sub></i></a>
+                        <li><a href="" data-tip="Quick View"> <img src={require('../../img/search.png')}/></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><img src={require('../../img/shopping-bag.png')}/><sub className="Two">2</sub></a>
                     </li>
                         <li><a href="" data-tip="Add to Cart"><i class="fa fa-bars"></i></a></li>
                         

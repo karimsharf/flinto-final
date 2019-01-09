@@ -14,8 +14,8 @@ class ComingSoon extends Component {
   render () {
     return (
       <div>
-<NavbarTop/>
 <SliderComingSoon/>
+
 </div>
 
 
