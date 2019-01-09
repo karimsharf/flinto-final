@@ -1350,9 +1350,9 @@ ul.SliderComingCounter li p1 {
    margin-top: 50px;
 }
 .SliderComingSoon{
-background: url(../src/img/404.jpg);
-
-
+background: url("./img/coming.jpg");
+background-size: cover;
+height: 100vh;
 }
 ul.social-mediaCounter {
     list-style: none;
@@ -1372,15 +1372,7 @@ ul.social-mediaCounter li {
     font-size: 18px;
     color: #000000;
 }
-.SLiderSocial {
-    position: absolute;
-    top: 121%;
-    cursor: pointer;
-    left: 14%;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-}
+
 /* end SLider comeing soon  */
 
                      /* *************start th page ErrO*********** */
@@ -1576,6 +1568,17 @@ span.glyphicon.glyphicon-search.holder {
     z-index: 1;
     height: 0;
     padding: 21px 0 66px 0;
+}
+i.fa.fa-bars {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.navbar-inverse button.navbar-toggle {
+    border-color: #f0f1f3;
+}
+.navbar-inverse button.navbar-toggle:focus, .navbar-inverse button.navbar-toggle:hover {
+    background-color: #f0f1f3;
+    -webkit-filter: drop-shadow(0 0 5px rgb(240, 241, 243));
 }
 .bm-burger-button {
     position: fixed;

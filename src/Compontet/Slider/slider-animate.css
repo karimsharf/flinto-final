@@ -139,12 +139,14 @@ a.previousButton {
   }
   
   .slider-content .inner h1 {
-    font-weight: 900;
+    font-weight: 100;
     margin: 0 auto;
     max-width: 840px;
     color: #FFFFFF;
     font-size: 64px;
     line-height: 1;
+    font-size: 37px !important;
+    letter-spacing: 2px;
   }
   
   .slider-content .inner p {
@@ -153,6 +155,10 @@ a.previousButton {
     line-height: 1.5;
     margin: 20px auto 30px;
     max-width: 640px;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 400;
+
   }
   
   .slider-content section {
@@ -189,6 +195,22 @@ a.previousButton {
     display: block;
   }
   
+
+  @media (max-width :375px){
+    .slider-content .inner h1 {
+font-size: 31px !important;
+line-height: 4;
+    }
+    .slider-content .inner p {
+
+      display: none;
+    }
+
+
+
+  }
+
+
   @media (max-height: 500px) {
     .slider-wrapper, .slide {
       height: calc(100vh - 75px);

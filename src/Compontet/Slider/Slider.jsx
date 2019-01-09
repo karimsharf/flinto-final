@@ -13,7 +13,7 @@ const content = [
 	{
 		title: 'New Arrivals',
 		description:
-		'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. .',
+		'Woman Collection & Man Collection.',
 		button: 'Discover',
 		image: 'https://aikoparadaisu.com/media/magiccart/magicslider/cache/1920x765//s/l/slide2.jpg',
 	
