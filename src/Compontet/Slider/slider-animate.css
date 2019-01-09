@@ -60,7 +60,7 @@ a.previousButton {
     margin-left: 0;
   }
   
-  .slider-wrapper {
+  .Sliderer .slider-wrapper {
     position: relative;
     height: 100vh;
     overflow: hidden;

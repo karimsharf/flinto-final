@@ -33,8 +33,8 @@ class NavbarTop extends Component {
   <Navbar.Collapse>
   <Col md={8}>
     <Nav>
-      <NavItem eventKey={1} href="#">
-     Demos
+      <NavItem eventKey={1} href="/">
+    Home
       </NavItem>
       <NavItem eventKey={2} href="/shop">
       Shop
@@ -43,7 +43,7 @@ class NavbarTop extends Component {
      Product
       </NavItem>
       <NavItem eventKey={2} href="/ComingSoon">
-    Elements
+    Coming
       </NavItem>
       <NavItem eventKey={2} href="/Erro">
       404
