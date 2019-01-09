@@ -721,14 +721,14 @@ ul.SortShopRight li {
 }
 /* end sortshop */
 /* start categories */
-ul.Categories li {
+ul.Categories li , ul.Categoriess li {
     list-style: none;
 }
-ul.Categories {
+ul.Categories , ul.Categoriess {
     padding-left: 0;
     position: relative;
 }
-ul.Categories li a {
+ul.Categories li a , ul.Categoriess li a {
     text-decoration: none;
     line-height: 2;
     font-size: 15px;
@@ -744,7 +744,7 @@ h2.Categoriesholder {
     font-weight: 500;
 }
 
-ul.Categories li {
+ul.Categories li  , ul.Categoriess li{
     color: grey;
     font-size: 15px;
     font-weight: 500;
@@ -759,14 +759,14 @@ ul.Categories li button:hover {
     border-radius: 50%;
     -webkit-transition: padding 250ms;
 }
-ul.Categories button.red {
+ul.Categories button.red , ul.Categoriess button.red {
     padding: 10px;
     background: #ff3b2f;
     border: none;
     border-radius: 50%;
     margin-right: 16px;
 }
-ul.Categories button.blue {
+ul.Categories button.blue , ul.Categoriess button.blue {
     padding: 10px;
     background: #007aff;
     border: none;
@@ -1753,6 +1753,13 @@ input.rc-input-number-input {
 }
 
 @media (max-width :414px){
+    .Categoriesi{
+        display: none;
+    }
+    
+    .SortMobile{
+        display: block !important;
+    }
     ul.social {
         display: none;
     }
@@ -1835,6 +1842,7 @@ ul.thumbs.animated {
  
 @media (max-width :375px){
 
+
     .SliderShop .SliderHolder img {
         position: relative;
         bottom: 0;
@@ -1868,7 +1876,7 @@ ul.thumbs.animated {
     ul.SortShopRight {
      display: none;
     }
-    ul.Categories {
+    ul.Categories , ul.Categoriess {
         text-align: -webkit-center;}
  h2.Categoriesholder {
   text-align: center;
@@ -1898,6 +1906,7 @@ h2.RatedHeader {
 
 
 @media (max-width :414px){
+  
 
 .SliderShop .SliderHolder img {
         position: relative;
@@ -2490,3 +2499,28 @@ ul.AccessoriesRightHolder {
   transition: all 0.3s ease-in-out 0s;
 }
 
+
+
+
+
+
+
+
+
+
+
+button.btn.btn-lg.btn-primary {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: black;
+    border: 0;
+    z-index: 99999;
+    border-radius: 0;
+}
+
+
+
+.SortMobile{
+    display:none;
+}

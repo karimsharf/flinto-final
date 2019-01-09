@@ -10,6 +10,7 @@ import FooterLinks from '../FooterLinks/FooterLinks';
 import GridProduct from '../GridProduct/GridProduct';
 import {Grid,Row,Col} from 'react-bootstrap';
 import NavbarTop from '../NavbarTop/NavbarTop';
+import SortMobile from '../SortMobile/SortMobile';
 
 class Shop extends Component {
   render() {
@@ -23,6 +24,7 @@ class Shop extends Component {
 <div className="container">
 <Row>
 <Categories/>
+<SortMobile/>
 <GridProduct/>
 </Row>
 </div>

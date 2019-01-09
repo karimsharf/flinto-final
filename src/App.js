@@ -8,6 +8,7 @@ import { BrowserRouter, Route ,Switch} from "react-router-dom";
 import NavbarTop from './Compontet/NavbarTop/NavbarTop';
 import Erro from './Compontet/Erro/Erro'
 import LogIn from './Compontet/LogIn/LogIn'
+import SortMobile from './Compontet/SortMobile/SortMobile';
 class App extends Component {
 
   render() {
@@ -30,6 +31,8 @@ class App extends Component {
         <Route path="/ComingSoon" component={ComingSoon} />
         <Route path="/Erro" component={Erro} />
         <Route path="/LogIn" component={LogIn} />
+        <Route path="/sort" component={SortMobile} />
+
         </Switch>
 
         </div>
