@@ -40,7 +40,7 @@ class SortMobile extends Component {
 
         <Modal show={this.state.show} onHide={this.handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Sort By</Modal.Title>
           </Modal.Header>
           <Modal.Body>
          
@@ -72,7 +72,7 @@ $350.000+
 </a></li>
 </ul>
 <h2 className="Categoriesholder">Color</h2>
-<ul className="Categories">
+<ul className="CategoriesColor">
 <li><button className="red" ></button><span>Red</span></li>
 <li><button className="blue" ></button><span>Blue</span></li>
 <li><button className="green" ></button><span>Green</span></li>
@@ -110,7 +110,7 @@ $350.000+
 </Col>
           </Modal.Body>
           <Modal.Footer>
-            <Button onClick={this.handleClose}>Close</Button>
+       
           </Modal.Footer>
         </Modal>
       </div>

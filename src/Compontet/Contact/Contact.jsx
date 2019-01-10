@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="Contact">
       <Grid>
 <Row>
-<Col md={6} xs={12}>
+<Col md={6} xs={12} sm={6} >
 <div className="Contact-Title">
 <h2 className="login-title" >Login<span className="are-vendor"><a href="#">Login as a Vendor</a></span></h2>
 <p>Hello, login to your account</p>
@@ -25,7 +25,7 @@ class Contact extends Component {
 
 
 </Col>
-<Col md={6} xs={12}>
+<Col md={6} xs={12} sm={6} >
 <div className="Contact-Title">
 <h2 className="login-title" >REGISTER<span className="are-vendor"><a href="#">ARE YOU A VENDOR?</a></span></h2>
 <p>Enter your phone number to create an account at Bab Makkah Stores</p>

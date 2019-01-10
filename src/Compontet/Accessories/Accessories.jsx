@@ -31,7 +31,7 @@ class Accessories extends Component {
   <Grid>
 <Row>
 <Col md={5} xs={12} sm={6}>
-<h2 className="BackAccessories" ><i class="fa fa-angle-left"></i> Back to Accessories </h2>
+<h2 className="BackAccessories" ><i class="fa fa-angle-left"></i><a href="#">Back to Accessories</a></h2>
 <Carousel
 showIndicators={false}
 showArrows={false}

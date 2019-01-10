@@ -15,7 +15,7 @@ return (
    <div className="container">
       <div className="row masonry-grid">
       
-         <div className="col-md-6 col-sm-12 col-lg-4 masonry-column">
+         <div className="col-md-6 col-sm-6 col-lg-4 masonry-column">
             <div>
                <div className="box">
                   <div className="imgBox">
@@ -32,7 +32,7 @@ return (
             </div>
          </div>
 
-         <div className="col-md-6 col-sm-12 col-lg-4 masonry-column">
+         <div className="col-md-6 col-sm-6 col-lg-4 masonry-column">
             <div>
                <div className="boxCenter">
                   <div className="imgBoxCenter">

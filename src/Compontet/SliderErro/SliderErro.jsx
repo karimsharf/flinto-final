@@ -1,13 +1,58 @@
 import React, { Component } from 'react';
 import {NavItem,} from 'react-bootstrap';
-
+import {Grid,} from 'react-bootstrap';
 class SliderErro extends Component {
+  constructor(props){
+    super(props);
+  this.state = {
+        overlayOpen:"open",
+        menuTitle: <i class="fa fa-bars"></i>,
+        overlaySt:"overlay"
+    };
+   this.handleClick = this.handleClick.bind(this);
+};
+
+  handleClick() {
+    switch(this.state.overlayOpen)
+{
+  case "open":
+  this.setState({
+      overlayOpen:"close",
+      menuTitle: <i class="fa fa-close"></i>,
+      overlaySt:"overlay open"
+  });
+  break;
+case "close":
+  this.setState({
+      overlayOpen:"open",
+      menuTitle: <i class="fa fa-bars"></i>,
+      overlaySt:"overlay"
+  });
+  break;
+
+}
+  
+}
   render() {
     return (
       <div className="SliderErroHolder">
-
+<Grid>
+<div className="menu-cont" id="toggle" >
+            <span className='menu-txt' onClick={this.handleClick}>{this.state.menuTitle}</span>
+         <div className={this.state.overlaySt} id="overlay">
+            <nav className="overlay-menu">
+            <ul>
+            <li ><a href="/">Home</a></li>
+            <li><a href="/shop">shop</a></li>
+            <li><a href="/singleshop"> Product</a></li>
+            <li><a href="/ComingSoon">Coming</a></li>
+            <li><a href="/Erro">404</a></li>
+            <li><a href="/LogIn">Login</a></li>
+           </ul>
+           </nav>
+        </div>
+      </div>
  <div className="SliderErro">
-  <img src={require('../../img/404.jpg')}/>
   </div>
 
   <div className="SliderErroHeader">
@@ -26,6 +71,7 @@ Perhaps searching can help or go back to Homepage</p>
       </div>
   
   </div>
+  </Grid>
       </div>
     );
   }

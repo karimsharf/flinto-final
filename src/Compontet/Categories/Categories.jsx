@@ -33,7 +33,7 @@ $350.000+
 </a></li>
 </ul>
 <h2 className="Categoriesholder">Color</h2>
-<ul className="Categories">
+<ul className="CategoriesColor">
 <li><button className="red" ></button><span>Red</span></li>
 <li><button className="blue" ></button><span>Blue</span></li>
 <li><button className="green" ></button><span>Green</span></li>

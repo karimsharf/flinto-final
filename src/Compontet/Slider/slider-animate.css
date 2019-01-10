@@ -209,6 +209,19 @@ line-height: 4;
 
 
   }
+  @media (max-width :414px){
+    .slider-content .inner h1 {
+font-size: 31px !important;
+line-height: 4;
+    }
+    .slider-content .inner p {
+
+      display: none;
+    }
+
+
+
+  }
 
 
   @media (max-height: 500px) {

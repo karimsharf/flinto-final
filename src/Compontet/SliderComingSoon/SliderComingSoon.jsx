@@ -47,10 +47,12 @@ class SliderComingSoon extends Component {
          <div className={this.state.overlaySt} id="overlay">
             <nav className="overlay-menu">
             <ul>
-            <li ><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li ><a href="/">Home</a></li>
+            <li><a href="/shop">shop</a></li>
+            <li><a href="/singleshop"> Product</a></li>
+            <li><a href="/ComingSoon">Coming</a></li>
+            <li><a href="/Erro">404</a></li>
+            <li><a href="/LogIn">Login</a></li>
            </ul>
            </nav>
         </div>
