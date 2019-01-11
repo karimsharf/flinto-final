@@ -28,7 +28,7 @@ class Contact extends Component {
 <Col md={6} xs={12} sm={6} >
 <div className="Contact-Title">
 <h2 className="login-title" >REGISTER<span className="are-vendor"><a href="#">ARE YOU A VENDOR?</a></span></h2>
-<p>Enter your phone number to create an account at Bab Makkah Stores</p>
+<p>Hello, regeister to your account</p>
 <form><label>Phone Number</label>
         <input placeholder={1097152193} type="text" className="form-control" />
         <label>Password</label>

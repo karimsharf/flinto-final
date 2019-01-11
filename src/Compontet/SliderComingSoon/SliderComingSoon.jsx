@@ -3,7 +3,7 @@ import {NavItem,} from 'react-bootstrap';
 import FooterLinks from '../FooterLinks/FooterLinks';
 import CountTo from 'react-count-to';
 import {Grid,} from 'react-bootstrap';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 class SliderComingSoon extends Component {
 
       constructor(props){
@@ -40,7 +40,9 @@ class SliderComingSoon extends Component {
   render() {
     return (
       <div className="SliderComingSoon">
-
+<ScrollAnimation  animateIn='fadeInLeft'
+  animateOut='fadeOut'
+ >
 <Grid>
        <div className="menu-cont" id="toggle" >
             <span className='menu-txt' onClick={this.handleClick}>{this.state.menuTitle}</span>
@@ -89,6 +91,7 @@ class SliderComingSoon extends Component {
   </div>
  
   </Grid>
+  </ScrollAnimation>
       </div>
     );
   }

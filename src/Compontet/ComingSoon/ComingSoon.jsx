@@ -4,7 +4,7 @@ import FooterLinks from '../FooterLinks/FooterLinks';
 import SliderComingSoon from '../SliderComingSoon/SliderComingSoon';
 import CountTo from 'react-count-to';
 import NavbarTop from '../NavbarTop/NavbarTop';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class ComingSoon extends Component {
   showSettings (event) {
@@ -13,7 +13,9 @@ class ComingSoon extends Component {
   }
   render () {
     return (
+      
       <div>
+
 <SliderComingSoon/>
 
 </div>

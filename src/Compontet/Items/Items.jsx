@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import FeaturedItem from '../FeaturedItem/FeaturedItem';
 import {Tab,Tabs,Col,Grid} from 'react-bootstrap';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 class Item extends Component {
   render() {
     var settings = {
@@ -18,7 +18,9 @@ class Item extends Component {
   
 
 
-
+<ScrollAnimation  animateIn='fadeInLeft'
+  animateOut='fadeOut'
+ >
       
       <Grid> 
 <h2 className="ItemHeader">Featured Products</h2>
@@ -60,6 +62,7 @@ class Item extends Component {
 </Tabs>
   
       </Grid>
+      </ScrollAnimation>
       </div>
     );
   }

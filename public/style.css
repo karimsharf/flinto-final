@@ -113,8 +113,8 @@ ul.social li a {
     font-weight: 100;
 }
 .animated.fadeInLeft {
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 0s;
+    -webkit-animation-delay: 0s;
     -webkit-animation-iteration-count: unset;
 }
 .sliderholdall span a {
@@ -310,7 +310,7 @@ span.sliderhold {
     font-size: 16px;
     text-align: center;
     padding: 10px;
-    margin: 1px;
+    margin: 3px;
     display: block;
     position: relative;
     transition: all .3s ease-in-out;
@@ -720,7 +720,7 @@ ul.SortShopRight li {
     float: right;
 }
 .SortShop {
-    margin-top: 53px;
+    margin-top: 0px;
     margin-bottom: 46px;
 }
 /* end sortshop */
@@ -1064,6 +1064,9 @@ h2.RatedHeader {
 
 .hpp nav.navbar.navbar-inverse .shop {
     background:red;
+}
+ .shop .NavbarTop nav.navbar.navbar-inverse {
+    background: #fcfcfee8 !important;
 }
 
 
@@ -1571,7 +1574,6 @@ span.glyphicon.glyphicon-search.holder {
     .Contact-Title {
         padding: 30px 30px;
         background-color: white;
-        margin-top: 57px;
     }
     .login-lost {
         margin-top: 20px;
@@ -1752,6 +1754,9 @@ input.rc-input-number-input {
     ul.nav.nav-tabs {
         margin-right: 27px;
     }
+    .NavbarTop.NavbarTop nav.navbar.navbar-inverse {
+        background:white !important;
+    }
     .dicountHolder input {
     
         padding-right: 86px !important;
@@ -1783,6 +1788,9 @@ margin-left: 46px;
             }
     ul.social {
         display: none;
+    }
+    .NavbarTop.NavbarTop nav.navbar.navbar-inverse {
+        background:white !important;
     }
     ul.nav.nav-tabs {
         margin-right: 27px;
@@ -1831,8 +1839,7 @@ margin-left: 46px;
 }
 @media (min-width :1025px){
 
-
-
+  
 ul.thumbs.animated {
     position: absolute;
     display: grid;
@@ -1874,7 +1881,9 @@ nav.navbar.navbar-inverse {
     /* .boxRightBottom .imgBoxRightBottom{
         height: 100vh;
     } */
-  
+    .NavbarTop nav.navbar.navbar-inverse {
+        background:white !important;
+    }
     ul.social {
         display: none;
     }
@@ -1909,10 +1918,28 @@ nav.navbar.navbar-inverse {
 
 
 /* *****start socend page   shop page***** */
+@media (max-width: 320px){
+.dicountHolder input {
+    padding-right: 30px !important;
+}
+}
+
+
 
 @media (max-width :375px){
-
-
+    .Journal .Ratedproducts {
+        margin-top: 0;
+    }
+    .Item {
+        margin-top: 0;
+    }
+    .TabDescription {
+        margin-top: 32px;
+    }
+    ul.pagination {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .SliderShop .SliderHolder img {
         position: relative;
         bottom: 0;
@@ -1922,12 +1949,11 @@ nav.navbar.navbar-inverse {
         top: 20%;
     }
     h2.SliderShop {
-        font-size: 28px !important;
-        margin-top: 350px;
-        font-weight: 500;
-        font-size: 27px;
-        margin-bottom: 0
-        }
+        font-size: 24px !important;
+        margin-top: 380px;
+        font-weight: 300;
+        margin-bottom: 85px;
+    }
     span.sliderCenter {
         display: none;
     }
@@ -1984,6 +2010,19 @@ h2.RatedHeader {
 
 
 @media (max-width :414px){
+    .Journal .Ratedproducts {
+        margin-top: 0;
+    }
+    .TabDescription {
+        margin-top: 32px;
+    }
+    .Item {
+        margin-top: 0;
+    }
+    ul.pagination {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
   
     h2.Categoriesholder {
         text-align: center;
@@ -2001,12 +2040,11 @@ h2.RatedHeader {
         position: absolute;
         top: 20%;
     }
-h2.SliderShop {
-    font-size: 28px !important;
-    margin-top: 350px;
-    font-weight: 500;
-    font-size: 27px;
-    margin-bottom: 0
+    h2.SliderShop {
+        font-size: 24px !important;
+        margin-top: 380px;
+        font-weight: 300;
+        margin-bottom: 85px;
     }
     .product-grid3 {
         margin-left: 26px;
@@ -2074,6 +2112,10 @@ ul.nav.navbar-nav li a {
 }
 }
 @media (min-width :767px) and (max-width :768px){
+    .Pager hr {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     
     .boxRight .imgBoxRight img {
         width: 100%;
@@ -2440,8 +2482,14 @@ ul.AccessoriesRightHolder {
         position: absolute;
         top: 8%;
     }
+    .Contact-Title {
+        margin-bottom: 38px;
+    }
 }
 @media (max-width :414px){
+    .Contact-Title {
+        margin-bottom: 38px;
+    }
     .sliderShopALL {
         position: absolute;
         top: 8%;
@@ -2468,7 +2516,9 @@ ul.AccessoriesRightHolder {
     }
     input.form-controlHolder {
       
-        margin-bottom: -8px;
+        margin-bottom: 20px;
+
+
         
     }
 }
@@ -2680,7 +2730,12 @@ ul.AccessoriesRightHolder {
 
 
 
-
+.NavbarTop .navbar-inverse button.navbar-toggle.collapsed {
+    border-color: transparent;
+}
+.NavbarTop nav.navbar.navbar-inverse {
+    background: #f0f1f3 !important;
+}
 
 
 button.btn.btn-lg.btn-primary {
