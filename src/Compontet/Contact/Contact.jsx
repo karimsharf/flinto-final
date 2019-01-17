@@ -35,25 +35,12 @@ class Contact extends Component {
         <input placeholder="******" type="password" className="form-control" />
         <label>Confirm Password</label>
         <input placeholder="******" type="password" className="form-controlHolder" />
-
-       
-       
         <input className="login-sub main-btn" type="submit" defaultValue="Login" />
       </form>
 </div>
-
-
 </Col>
-
-
-
 </Row>
-
-
       </Grid>
-
-
-  
       </div>
     );
   }
