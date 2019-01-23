@@ -9,6 +9,8 @@ import NavbarTop from './Compontet/NavbarTop/NavbarTop';
 import Erro from './Compontet/Erro/Erro'
 import LogIn from './Compontet/LogIn/LogIn'
 import SortMobile from './Compontet/SortMobile/SortMobile';
+import Booking from './Compontet/Booking/Booking';
+
 class App extends Component {
 
   render() {
@@ -32,6 +34,7 @@ class App extends Component {
         <Route path="/Erro" component={Erro} />
         <Route path="/LogIn" component={LogIn} />
         <Route path="/sort" component={SortMobile} />
+        <Route path="/booking" component={Booking} />
 
         </Switch>
 

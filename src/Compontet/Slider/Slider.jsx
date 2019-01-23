@@ -58,18 +58,8 @@ class Slider extends Component {
 					
 				</div>
 			))}
+			
 		</Sliderr>
-        {/* <img src={require('../../img/slide2.jpg')}/> */}
-
-{/* <div className="sliderholdall">
-<Animated animationIn="fadeInLeft" animationOut="slideOutRight" isVisible={true}>
-
-<h2>New Arrivals</h2>
-
-</Animated>
-
-<span><a href="#">Woman Collection</a></span><span className="sliderhold"> & </span><span><a href="#">Man Collection</a></span>
-</div> */}
 
       </div>
 

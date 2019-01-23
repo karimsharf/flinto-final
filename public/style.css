@@ -3,6 +3,7 @@ body{
     font-weight: 500;
     overflow-y: scroll !important;
 }
+
 .animated.tes4 {
     animation-duration: 5s;
 }
@@ -2781,3 +2782,193 @@ ul.AccessoriesRightHolder {
     }
 }
 
+
+
+
+
+span.right {
+    float: right;
+    clear: both;
+}
+
+
+.booking-logo {
+    text-align: center;
+    /* margin: 10px; */
+    /* background: red; */
+    padding: 15px;
+}
+
+.booking-logo img {
+    width: 100px;
+}
+.accordion {
+    border: transparent !important;
+    border-radius: 2px;
+}
+
+
+.test {
+    margin-bottom: 35px;
+    padding: 10px;
+}
+
+
+div#uncontrolled-tab-example-pane-1 , div#uncontrolled-tab-example-pane-2  {
+    text-align: left;
+}
+span.left {
+    font-size: 20px;
+}
+
+button.btn.btn-primary {
+    background: #2cb743;
+    border: 0;
+    border-radius: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 31px;
+    font-size: 15px;
+}
+
+.accordion__title{
+    background: transparent !important;
+    outline: 0;
+
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #ffffff !important;
+    background: #2cb743 !important;
+    border-radius: 0;
+}
+
+/* ul.nav.nav-tabs li a:hover {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #007aff;
+    color: #2cb743 !important;
+    font-size: 24px;
+} */
+
+ul.nav.nav-tabs li a:hover {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #007aff;
+    color: #2cb743 ;
+    font-size: 24px;
+}
+
+.booking{
+    font-family: 'Montserrat', sans-serif;
+margin:50px 0;
+}
+
+
+.booking .accordion__item {
+    /* background: yellow; */
+    margin: 17px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 2px;
+    padding: 8px;
+}
+
+
+
+button.btn.btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #2cb743;
+    color: #2cb743;
+    box-shadow: none;
+    -webkit-filter: none;
+    border: 1px solid;
+    transition: 1s;
+}
+
+
+.booking h3 {
+    font-size: 21px;
+    margin: 0;
+    }
+
+div#accordion__title-0 {
+    outline: 0;
+}
+
+.accordion__arrow {
+    display: inline-block;
+    width: 24px;
+    height: 12px;
+    position: relative !important;
+    top: 20px !important;
+    right: 0;
+    color: #56d063;
+    float: right;
+}
+
+
+.booking-model ul.nav.nav-tabs li a, .booking-model ul.nav.nav-tabs li a:hover {
+    margin-right: 0;
+    font-size: 15px;
+    outline: 0;
+    background: transparent;
+    border: 0;
+}
+.booking-model p {
+    color: #818181;
+    font-size: 16px;
+}
+
+
+a#uncontrolled-tab-example-tab-2 {
+    margin-left: 30px;
+}
+
+
+
+
+.booking-model  ul.nav.nav-tabs {
+    border-bottom: transparent;
+    margin: 30px;
+}
+
+.booking-model  .modal-body {
+    position: relative;
+    padding: 15px;
+    padding-top: 0;
+}
+.booking-model .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+}
+.booking-model h4{
+    font-weight: 600;
+}
+.booking-model h4, .booking-model   p {
+    line-height:26px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.booking-model button.btn.btn-primary {
+    width: 100%;
+    padding: 11px;
+    margin-top: 32px;
+    font-size: 21px;
+}
+@media (min-width: 768px){
+
+ .booking-model .modal-dialog {
+    width: 400px !important;    
+    margin: 30px auto;
+}
+    
+}
+
+
+.close:focus, .close:hover{
+    background: transparent;
+    color:Red;
+}
