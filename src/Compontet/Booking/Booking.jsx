@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Button,Modal,Tabs,Tab,Label,Grid} from 'react-bootstrap';
-import FooterLinks from '../FooterLinks/FooterLinks';
 import {
 Accordion,
 AccordionItem,
