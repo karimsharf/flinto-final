@@ -28,7 +28,7 @@ return (
 <div className="booking">
     <Grid>
         <div className="booking-logo">
-            <img src="http://dor-e.com/uploads/1/0/7/6/107690625/logo-small.png"></img>
+        <img src={require('../../img/logo-small.png')}/>
         </div>
         <Accordion>
             <AccordionItem>
